@@ -1,0 +1,69 @@
+{
+  "GITHUB_USERNAME": "230103010-wq",
+  "gpu_uuid": "GPU-e0655588-75d0-7a34-5e73-813c6909c902",
+  "cpu_model": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+  "logical_cores": 2,
+  "INSTANCE_SEED": 11328240559959952939,
+  "mpi_ranks": 4,
+  "process_grid": [
+    2,
+    2
+  ],
+  "stencil_steps": 300,
+  "dt": 1.9790862419179023e-06,
+  "kappa_max": 0.23999962497115201,
+  "gpu_serialized_ms": 1554.1744990000552,
+  "gpu_overlapped_ms": 2128.0669109999053,
+  "parity_max_diff": 0.0,
+  "halo_check_max_err": 0.0,
+  "energy_trace": [
+    {
+      "step": 0,
+      "E": 0.1325235260351493,
+      "l2_residual": 0.0
+    },
+    {
+      "step": 100,
+      "E": 0.13248468784200226,
+      "l2_residual": 2.0339438440082955e-05
+    },
+    {
+      "step": 200,
+      "E": 0.13245959613751895,
+      "l2_residual": 1.9974630441055604e-05
+    },
+    {
+      "step": 300,
+      "E": 0.13243663071420253,
+      "l2_residual": 1.964036577026048e-05
+    }
+  ],
+  "shm_iters": 40000000,
+  "shm_aligned_64B": false,
+  "shm_timings_ns": {
+    "stride_1": 734996903,
+    "stride_8": 686334193,
+    "stride_16": 648563404
+  },
+  "shm_ns_per_update": {
+    "stride_1": 18.374922575,
+    "stride_8": 17.158354825,
+    "stride_16": 16.2140851
+  },
+  "false_sharing_slowdown": 1.0709023541247347,
+  "shm_parity": true,
+  "ptx_counts": {
+    "st.shared.f64": 5,
+    "ld.shared.f64": 5,
+    "bar.sync": 1
+  },
+  "ptx_audit_passed": true,
+  "llvm_ir": {
+    "store_i64": 5,
+    "load_i64": 5,
+    "kernel_body_found": true,
+    "pyobject_in_kernel": 0
+  },
+  "llvm_audit_passed": true,
+  "verification_passed": true
+}
