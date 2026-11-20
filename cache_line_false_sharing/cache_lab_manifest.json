@@ -1,0 +1,93 @@
+{
+  "git_username": "230103010-wq",
+  "instance_seed": 16415417170890377035,
+  "cpu_model": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "logical_cores": 8,
+  "cache_line_size": 64,
+  "num_threads": 4,
+  "iterations_per_thread": 60000000,
+  "affinity_supported": false,
+  "pinned_cores": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "timings_ns": {
+    "stride_1": 461573700,
+    "stride_4": 457000300,
+    "stride_8": 303549500,
+    "stride_16": 617501000,
+    "private": 292485100
+  },
+  "ns_per_update": {
+    "stride_1": 7.692895,
+    "stride_4": 7.616671666666667,
+    "stride_8": 5.059158333333333,
+    "stride_16": 10.291683333333333,
+    "private": 4.874751666666667
+  },
+  "context_switches": {
+    "stride_1": [
+      null,
+      null
+    ],
+    "stride_4": [
+      null,
+      null
+    ],
+    "stride_8": [
+      null,
+      null
+    ],
+    "stride_16": [
+      null,
+      null
+    ],
+    "private": [
+      null,
+      null
+    ]
+  },
+  "slowdown_stride1_vs_stride8": 1.5205879107031968,
+  "final_values": {
+    "stride_1": [
+      "9446786976816553984",
+      "4856455041574424832",
+      "266123106332295680",
+      "14122535244799718144"
+    ],
+    "stride_4": [
+      "9446786976816553984",
+      "4856455041574424832",
+      "266123106332295680",
+      "14122535244799718144"
+    ],
+    "stride_8": [
+      "9446786976816553984",
+      "4856455041574424832",
+      "266123106332295680",
+      "14122535244799718144"
+    ],
+    "stride_16": [
+      "9446786976816553984",
+      "4856455041574424832",
+      "266123106332295680",
+      "14122535244799718144"
+    ],
+    "private": [
+      "9446786976816553984",
+      "4856455041574424832",
+      "266123106332295680",
+      "14122535244799718144"
+    ]
+  },
+  "llvm_ir": {
+    "store_i64": 5,
+    "load_i64": 5,
+    "kernel_body_found": true,
+    "pyobject_calls_in_kernel": 0
+  },
+  "parity_bit_exact": true,
+  "verification_passed": true
+}
